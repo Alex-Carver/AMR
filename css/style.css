@@ -263,6 +263,39 @@ and (max-width : 667px) {
   
  }
 
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)  {
+
+.top-right{
+  text-align: left;
+}
+
+.display-4 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.four{
+  text-align: left!important;
+}
+
+.mt-3{
+  text-align: left;
+}
+
+.list-unstyled, a{
+  text-align: left;
+}
+
+.card{
+  margin-bottom: 10px;
+}
+
+
+}
+
 
 
 
