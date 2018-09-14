@@ -1,0 +1,271 @@
+
+
+h2{
+  color: #5EA9F9!important;
+}
+
+h3{
+  color: #5EA9F9!important;
+}
+
+p{
+   color: #294A6D;
+   font-size: 20px;
+}
+
+p.lead{
+  color: #fff;
+}
+
+.top-nav{
+  background-color:#5EA9F9;
+  padding:0px;
+}
+
+.top-right{
+  text-align: right;
+}
+
+.top-left{
+  text-align: left;
+}
+
+p.top{
+  font-size: 15px;
+  color: #fff;
+  padding-top: 5px;
+}
+.navbar-brand{
+  width: 250px;
+}
+
+.bg-dark {
+    background-color: #fff!important;
+    border-bottom:1px solid #16273A!important;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(41,74,109)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(41,74,109);
+} 
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #294A6D!important;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#5EA9F9!important;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+     color:#5EA9F9!important;
+}
+
+.navbar-dark .navbar-toggler {
+       color:#5EA9F9!important;
+    border-color:  #294A6D!important;
+}
+
+.jumbotron-fluid{
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height:80vh;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top:200px;
+}
+
+.btn-primary {
+    color:#5EA9F9;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #294A6D;
+    border-color: #fff;
+}
+
+.services-header{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid #294A6D;
+    width: 80%;
+}
+
+section#services{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.services-box{
+    background-color: #5EA9F9;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.card{
+  border:none;
+  background: #fff;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.card-title{
+  color:#5EA9F9;
+  text-align: center;
+  font-weight: bold;
+}
+
+section#parallax{
+  height: 500px;
+  background-image: url(../img/parallax.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: contain;
+  width: 100%;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: #fff;
+}
+
+section#board{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#board .list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border:none;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border:none;
+  color:#294A6D;
+}
+
+footer{
+  background-color: #5EA9F9;
+  color: #fff;
+}
+
+.footerp{
+  color: #fff;
+}
+
+.footer-copyright{
+    background-color: #294A6D;
+}
+
+.list-unstyled, a{
+  color: #fff;
+  font-size: 20px;
+}
+
+.list-unstyled, a:hover{
+  color: #294A6D;
+  text-decoration: none;
+}
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  { 
+
+
+.top-right{
+  text-align: right;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.card{
+  margin-bottom: 10px;
+}
+
+.one{
+  text-align: left!important;
+}
+
+.two{
+  text-align: left!important;
+}
+.three{
+  text-align: left!important;
+}
+
+}
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) {
+  
+.top-right{
+  text-align: left;
+}
+
+.display-4 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.four{
+  text-align: left!important;
+}
+
+.mt-3{
+  text-align: left;
+}
+
+.list-unstyled, a{
+  text-align: left;
+}
+
+.card{
+  margin-bottom: 10px;
+}
+  
+ }
+
+
+
+
+
+
+
