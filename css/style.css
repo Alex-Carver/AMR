@@ -245,6 +245,17 @@ and (max-width : 667px) {
     line-height: 1.2;
 }
 
+.one{
+  text-align: left!important;
+}
+
+.two{
+  text-align: left!important;
+}
+.three{
+  text-align: left!important;
+}
+
 .four{
   text-align: left!important;
 }
@@ -275,6 +286,17 @@ and (max-device-width : 568px)  {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.2;
+}
+
+.one{
+  text-align: left!important;
+}
+
+.two{
+  text-align: left!important;
+}
+.three{
+  text-align: left!important;
 }
 
 .four{
