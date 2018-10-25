@@ -586,6 +586,19 @@ button.close {
 and (min-width : 768px) 
 and (max-width : 1024px)  { 
 
+.header-content {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.service-box {
+    height: 400px;
+    width: 100%;
+    padding: 15px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
 
 .top-right{
   text-align: right;
@@ -616,12 +629,203 @@ and (max-width : 1024px)  {
   float:none!important;
 }
 
+.custom-toggler.navbar-toggler {
+    border: none;
+}
+
+#staff .jumbotron-fluid {
+    background-image: url(../img/staff.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+    background-attachment: initial;
+    color: #fff;
+    background-color: #fff;
+    padding: 0;
+}
+.staff-box {
+    width: 100%;
+    height: 200px;
+    background: rgba(17,71,121,0.9);
+    padding: 15px;
+}
+
+.card-title {
+    color: #488CC5;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-text {
+    color: #5EA9F9;
+    font-family: 'Open-Sans',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.modal-dialog {
+    max-width: 700px;
+    margin: 1.75rem auto;
+}
+
+.contact-box{
+  padding:10px!important;
+}
+
+p.lead {
+    color: #114779;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#billing-text h4 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #488CC5;
+    margin-top: 50px;
+}
+
+#billing-bottom h4 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #488CC5;
+    margin-top: 50px;
+}
+
 }
 
 
 @media only screen 
 and (min-width : 375px) 
 and (max-width : 667px) {
+
+  #billing-bottom h4 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #488CC5;
+    margin-top: 50px;
+}
+
+  #billing-text h4 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #488CC5;
+    margin-top: 50px;
+}
+
+  #staff .jumbotron-fluid {
+    background-image: url(../img/staff.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+    background-attachment: initial;
+    color: #fff;
+    background-color: #fff;
+    padding: 0;
+}
+
+
+  h1.display-4 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #114779;
+}
+
+p.lead {
+    color: #114779;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#intro h2 {
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #488CC5;
+}
+#intro p {
+    color: #114779;
+    font-size: 20px;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+#services h2 {
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #488CC5;
+}
+
+section#parallax {
+    height: 500px;
+    background-image: url(../img/parallax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: contain;
+    width: 100%;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    color: #fff;
+}
+
+#parallax h2 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+  .custom-toggler.navbar-toggler {
+    border: none;
+}
+
+  .footer-copyright {
+    background-color: #488CC5;
+    padding: 5px;
+}
+
+  #parallax h2 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+  .header-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+  .jumbotron-fluid{
+  background-image: url(../img/cellHome.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height:90vh;
+  color: #fff;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
   
 .top-right{
   text-align: left;
@@ -663,12 +867,148 @@ and (max-width : 667px) {
 .no-float{
   float:none!important;
 }
+
+.footerp {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Open-Sans',sans-serif;
+    font-weight: 400;
+}
   
  }
 
  @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px)  {
+
+  #contact .jumbotron-fluid {
+    background-image: url(../img/contact.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 400px;
+    background-attachment: initial;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+  #billing-text h4 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #488CC5;
+    margin-top: 50px;
+}
+
+#billing-bottom h4 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #488CC5;
+    margin-top: 50px;
+}
+
+  #reach p{
+    font-size:20px;
+  }
+
+  .custom-toggler.navbar-toggler {
+    border: none;
+}
+
+  .navbar-brand {
+    width: 220px;
+    padding: 5px;
+}
+
+  .footer-copyright {
+    background-color: #488CC5;
+    padding: 5px;
+}
+
+  #parallax h2 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+ .header-content {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+  .jumbotron-fluid{
+  background-image: url(../img/cellHome.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height:90vh;
+  color: #fff;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+  h1.display-4 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #114779;
+}
+
+p.lead {
+    color: #114779;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#intro h2 {
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #488CC5;
+}
+#intro p {
+    color: #114779;
+    font-size: 20px;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+#services h2 {
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #488CC5;
+}
+
+section#parallax {
+    height: 500px;
+    background-image: url(../img/parallax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: contain;
+    width: 100%;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    color: #fff;
+}
+
+#parallax h2 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
 
 .top-right{
   text-align: left;
@@ -709,6 +1049,13 @@ and (max-device-width : 568px)  {
 
 .no-float{
   float:none!important;
+}
+
+.footerp {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Open-Sans',sans-serif;
+    font-weight: 400;
 }
 
 
