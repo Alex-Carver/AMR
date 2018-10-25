@@ -1,0 +1,90 @@
+﻿/* -----------------------------------------------------------------------------
+
+    This file should be used to add your own CSS definitions or override
+	the existing ones.
+
+----------------------------------------------------------------------------- */
+
+	/* FONT */
+	/* body { font-family: 'insert-font-family-name-here', 'Arial', sans-serif; } */
+
+	/* STANDARD LOGO DIMENSIONS */
+	.header-branding img { width: 900px; }
+
+	/* LARGE LOGO DIMENSIONS */
+	.header-branding.m-large-logo img { width: 900px; }
+	/* Scroll down to "MEDIUM DEVICES" to change width of large logo on mobile devices */
+
+	/* your CSS here */
+	.header-branding-right { position: relative; float: right; }
+
+	.header-branding-right img { width: 240px; }
+
+  .member-portrait-left-wrap { float:left; margin-right:10px; width:250px; }
+
+	p.has-bulleted-list { margin-bottom:2px; }
+
+	p.has-bulleted-list + ul  li { margin-top:-1px; }
+
+	button.home-button { color:#535353; background-color:#fefefc; width:80px; height:30px; margin:20px 0 0 20px; }
+
+/* -----------------------------------------------------------------------------
+
+    RESPONSIVE DEFINITIONS
+
+----------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------
+        LARGE DEVICES
+		devices with width between 992px and 1199px
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 1199px ) {
+
+		/* your CSS here */
+
+	}
+
+    /* -------------------------------------------------------------------------
+        MEDIUM DEVICES
+		devices with width between 768px and 991px
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 991px ) {
+
+		/* LARGE LOGO DIMENSIONS */
+		.header-branding.m-large-logo img { width: 140px; }
+
+		/* your CSS here */
+		.header-branding {
+				float: none;
+				padding: 20px 0 0 0;
+		}
+
+		.header-branding-right {
+				float: none;
+				padding: 0 0 20px 0;
+		}
+	}
+
+	/* -------------------------------------------------------------------------
+        SMALL DEVICES
+		devices with width between 481px and 767px
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 767px ) {
+
+		/* your CSS here */
+
+	}
+
+	/* -------------------------------------------------------------------------
+        EXTRA SMALL DEVICES
+		devices with width up to 480px
+    ------------------------------------------------------------------------- */
+
+	@media ( max-width: 480px ) {
+
+		/* your CSS here */
+
+	}
