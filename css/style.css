@@ -1,8 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+.animateMe{
+  opacity: 0;
+}
+ 
+.animateMe .animated{
+    opacity: 1;
+}
+
 body{
   font-family: 'Open-Sans', sans-serif;
+    opacity:0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; /* Safari */
 }
 
 h1.display-4{

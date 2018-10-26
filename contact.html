@@ -10,18 +10,21 @@
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
     <title>Advanced Midwest Radiology</title>
   </head>
-  <body id="contact">
+  <body onload="document.body.style.opacity='1'" id="contact">
 
     <!-- 
 7 - Navbar with brand left, links right, toggler right
     The links collapse into the mobile menu
 
 -->
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom p-0">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom p-0 animateMe" data-animation="fadeInDown">
 <a href="/" class="navbar-brand"><img src="./img/logoFinal.svg" alt="AMR Logo"></a>
     <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
         <span class="navbar-toggler-icon"></span>
@@ -61,7 +64,7 @@
 <div class="jumbotron jumbotron-fluid text-left">
   <div class="container-fluid">
     <div class="row text-left">
-      <div class="col-md-12">
+      <div class="col-md-12 animateMe" data-animation="fadeInLeft">
         <h1 class="display-4">Got Questions?</h1>
         <p class="lead" >AMR is here to help you with any questions or concerns you have. <br> We are available 24/7 365 days a year. Give us a call at 1-815-900-9033.</p>
           <p class="lead">
@@ -74,7 +77,7 @@
 
 <section id="intro">
   <div class="container">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-md-8 offset-md-2 animateMe" data-animation="fadeInUp">
         <h4>Get in touch with AMR</h4>
         <form>
   <div class="form-group">
@@ -99,20 +102,20 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-md-3  contact-box box1">
-          <h4>Imaging Exam at SCH</h4>
-          <p>Phone: (815) 900-9060</p>
+          <h4 class="animateMe" data-animation="fadeIn">Imaging Exam at SCH</h4>
+          <p class="animateMe" data-animation="fadeIn">Phone: (815) 900-9060</p>
       </div>
        <div class="col-md-3  contact-box box2">
-          <h4>AMIR Clinic</h4>
-          <p>Phone: (815) 900-9060</p>
+          <h4 class="animateMe" data-animation="fadeIn">AMIR Clinic</h4>
+          <p class="animateMe" data-animation="fadeIn">Phone: (815) 900-9060</p>
       </div>
        <div class="col-md-3  contact-box box3">
-          <h4>Billing Department</h4>
-          <p>Phone: (866) 720-2502</p>
+          <h4 class="animateMe" data-animation="fadeIn">Billing Department</h4>
+          <p class="animateMe" data-animation="fadeIn">Phone: (866) 720-2502</p>
       </div>
        <div class="col-md-3 contact-box box4">
-          <h4>Business Office</h4>
-          <p>Phone: (866) 720-2502</p>
+          <h4 class="animateMe" data-animation="fadeIn">Business Office</h4>
+          <p class="animateMe" data-animation="fadeIn">Phone: (866) 720-2502</p>
       </div>
     </div>
   </div>
@@ -126,7 +129,7 @@
 <footer class="page-footer font-small pt-4">
 
     <!-- Footer Links -->
-    <div class="container text-center text-md-left">
+    <div class="container text-center text-md-left animateMe" data-animation="fadeIn">
 
       <!-- Grid row -->
       <div class="row">
@@ -209,6 +212,7 @@ Oak Brook, Illinois 60523</p>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./js/app.js"></script>

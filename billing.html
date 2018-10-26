@@ -10,11 +10,14 @@
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
     <title>Advanced Midwest Radiology</title>
   </head>
-  <body id="billing">
+  <body onload="document.body.style.opacity='1'" id="billing">
 
     <!-- 
 7 - Navbar with brand left, links right, toggler right
@@ -22,7 +25,7 @@
 
 -->
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom p-0">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom p-0 animateMe" data-animation="fadeInDown">
 <a href="/" class="navbar-brand"><img src="./img/logoFinal.svg" alt="AMR Logo"></a>
     <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
         <span class="navbar-toggler-icon"></span>
@@ -63,7 +66,7 @@
 <div class="jumbotron jumbotron-fluid text-left">
   <div class="container-fluid">
     <div class="row text-left">
-      <div class="col-md-12">
+      <div class="col-md-12 animateMe" data-animation="fadeInLeft">
         <h1 class="display-4">Billing Questions?</h1>
         <p class="lead" >AMR makes it easy to pay in a variety of ways.</p>
          <p class="lead" >Please call 1-866-720-2502 Monday-Friday 8:30AM - 5:00PM EST</p>
@@ -76,25 +79,25 @@
   <div class="container-fluid" >
     <div class="row">
       <div class="col-md-12 text-center">
-        <h4 style="margin-top:50px;">Payment, Insurance<br>
+        <h4 class="animateMe" data-animation="fadeInUp" style="margin-top:50px;">Payment, Insurance<br>
         &amp; Billing Information</h4>
       </div>
     </div>
     <div class="row text-center" style="padding-top: 50px; color: #fff;">
       <div style="padding:30px;" class="col-md-4 contact-box box1">
-        <img  style="width:30%; height: 30%; margin-bottom: 20px; " src="./img/web.svg" alt="web-icon">
-        <h5>Pay by credit card online anytime, day or night</h5>
-        <p>Visit Us at<br><a class="billing-link" href="www.peryourhealth.com">www.peryourhealth.com</a></p>
+        <img  class="animateMe" data-animation="fadeIn" style="width:30%; height: 30%; margin-bottom: 20px; " src="./img/web.svg" alt="web-icon">
+        <h5 class="animateMe" data-animation="fadeIn">Pay by credit card online anytime, day or night</h5>
+        <p class="animateMe" data-animation="fadeIn">Visit Us at<br><a class="billing-link" href="www.peryourhealth.com">www.peryourhealth.com</a></p>
       </div>
        <div style="padding:30px;" class="col-md-4 contact-box box2">
-        <img style="width:30%; height: 30%; margin-bottom: 20px;" src="./img/sPhone.svg" alt="web-icon">
-          <h5>Pay by credit card via phone: (866)-720-2502</h5>
-            <p>Certified, safe and secure credit card processing. </p>
+        <img class="animateMe" data-animation="fadeIn" style="width:30%; height: 30%; margin-bottom: 20px;" src="./img/sPhone.svg" alt="web-icon">
+          <h5 class="animateMe" data-animation="fadeIn">Pay by credit card via phone: (866)-720-2502</h5>
+            <p class="animateMe" data-animation="fadeIn">Certified, safe and secure credit card processing. </p>
       </div>
        <div style="padding:30px;" class="col-md-4 contact-box box3">
-        <img style="width:30%; height: 30%; margin-bottom: 20px;" src="./img/user.svg" alt="web-icon">
-          <h5>Update your account information or send ID</h5>
-          <p>Visit us at <a href="www.peryourhealth.com">www.peryourhealth.com</a></p>
+        <img class="animateMe" data-animation="fadeIn" style="width:30%; height: 30%; margin-bottom: 20px;" src="./img/user.svg" alt="web-icon">
+          <h5 class="animateMe" data-animation="fadeIn">Update your account information or send ID</h5>
+          <p class="animateMe" data-animation="fadeIn">Visit us at <a href="www.peryourhealth.com">www.peryourhealth.com</a></p>
       </div>
     </div>
 </div>
@@ -105,10 +108,10 @@
       <div class="row">
       <div class="col-lg-10 offset-lg-1 col-sm-12 col-md-12  text-center">
         
-       <h4 style="margin-top:80px;">To contact the billing office</h4>
-        <p class="lead">Please call <span style="color:  #5EA9F9;">1-866-720-2502</span> Monday-Friday 8:30AM - 5:00PM EST</p>
+       <h4 class="animateMe" data-animation="fadeIn" style="margin-top:80px;">To contact the billing office</h4>
+        <p class="lead animateMe" data-animation="fadeIn">Please call <span style="color:  #5EA9F9;">1-866-720-2502</span> Monday-Friday 8:30AM - 5:00PM EST</p>
 
- <p class="lead">This invoice is for Radiology Physicians, which are independent of the hospital, who interpret tests, help establish a diagnosis and perform unique procedures.</p>
+ <p class="lead animateMe" data-animation="fadeIn">This invoice is for Radiology Physicians, which are independent of the hospital, who interpret tests, help establish a diagnosis and perform unique procedures.</p>
       </div>
   </div>
   </div>
@@ -119,7 +122,7 @@
 <footer class="page-footer font-small pt-4">
 
     <!-- Footer Links -->
-    <div class="container text-center text-md-left">
+    <div class="container text-center text-md-left animateMe" data-animation="fadeIn">
 
       <!-- Grid row -->
       <div class="row">
@@ -201,6 +204,7 @@ Oak Brook, Illinois 60523</p>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./js/app.js"></script>
