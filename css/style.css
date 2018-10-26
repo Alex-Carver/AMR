@@ -9,6 +9,24 @@
     opacity: 1;
 }
 
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
 body{
   font-family: 'Open-Sans', sans-serif;
     opacity:0;
@@ -497,7 +515,7 @@ section#board{
 
 
 footer{
-  background-color: #488CC5;
+  background-color: #114779;
   color: #fff;
     font-family: 'Open-Sans', sans-serif;
   font-weight: 700;
@@ -524,7 +542,7 @@ i{
 }
 
 .footer-copyright{
-    background-color: #488CC5;
+    background-color: #114779;
 }
 
 .list-unstyled, a{
@@ -537,31 +555,14 @@ i{
 
 
 .list-unstyled, a:hover{
-  color:#114779;
+  color:#488CC5;
   text-decoration: none;
 }
 
 
 /*----Amr Staff Page----*/
 
-#slide-background{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background:#294A6D;
-}
 
-.carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: 20px;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    top: 35%;
-}
 
 .card {
     border: 1px solid #294A6D;
