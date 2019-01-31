@@ -251,12 +251,12 @@ p.lead{
 
 
 .jumbotron-fluid{
-  background-image: url(../img/hero3.png);
+  background-image: url(../img/hero8.png);
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
   background-position: center;
-  height:90vh;
+  height:100vh;
   color: #fff;
   background-attachment: fixed;
   position: relative;
